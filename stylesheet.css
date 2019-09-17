@@ -3,10 +3,11 @@
    }
 
    .navbar ul {
+      list-style-type: none;
+      padding: 0;
+      margin; 0;
       overflow: hidden;
       background-color: #116200;
-      position: fixed;
-      top: 0; 
       width: 100%;
       box-sizing: border-box;
    }
@@ -17,6 +18,10 @@
      font-size: 25px; 
      font-family: Helvetica;
      color: #000;
+   }
+
+   .navbar li {
+      float:left;
    }
     
    .navbar li a {
