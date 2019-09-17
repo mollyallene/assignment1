@@ -4,12 +4,13 @@
    position: fixed;
    top: 0; 
    width: 100%;
+   box-sizing: border-box;
    }
     
    .navbar h1 {
      text-align: center;
      font-size: 25px; 
-     font-family: Helvetica Neue;
+     font-family: Helvetica;
      color: #000;
    }
     
@@ -18,5 +19,10 @@
      font-size: 19px;
      text-decoration: none;
      padding: 0, 15px;
+   }
+
+   body,html {
+      padding: 0;
+      margin: 0;
    }
      
