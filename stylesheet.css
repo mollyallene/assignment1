@@ -1,43 +1,66 @@
-   .navbar {
-      position: fixed;
-   }
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-   .navbar ul {
-      list-style-type: none;
-      overflow: hidden;
-      background-color: #116200;
-      padding: 0;
-      margin: 0;
-   }
+.navbar ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #116200;
+  padding: 0;
+  margin: 0;
+}
       
-    
-   .navbar h1 {
-     text-align: center;
-     font-size: 25px; 
-     font-family: Helvetica;
-     color: #000;
-   }
+.navbar h1 {
+  text-align: center;
+  font-size: 25px; 
+  font-family: Avenir Next, Georgia;
+  color: #fff;
+}
 
-   .navbar li {
-      float:left;
-   }
+.navbar li {
+      float: left;
+}
    
-   .navbar li a {
-     text-align: center;
-     display: block;
-     color: #000;
-     font-size: 19px;
-     text-decoration: none;
-     padding: 10px 25px;
-     font-family: Helvetica;
-   }
+.navbar li a {
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-size: 19px;
+  text-decoration: none;
+  padding: 10px 25px;
+  font-family: Avenir Next, Georgia;
+}
    
-   .navbar li a:hover {
-        background-color: #d8d8d8;
-   }
+.navbar li a:hover {
+  background-color: #198E01;
+}
 
-   body,html {
-      padding: 0;
-      margin: 0;
-   }
-     
+body,html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Georgia, Times New Roman;
+}
+
+.btn {
+  border: 2px solid;
+  border-color: #d8d8d8;
+  background-color: #fff;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-family: Georgia, Times New Roman;
+  cursor: pointer;
+  display: block;
+  color: #000;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: #d8d8d8;
+}
+
